@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package labyrinth;
+
+// empty message
+message GetLabyrinthRequest{}
+
+message GetLabyrinthInfoResponse{
+    int32 width = 1;
+    int32 height = 2;
+}
+// empty message
+message GetPlayerStatusRequest{}
+
+message GetPlayerStatusResponse{
+    int32 score = 1;
+    int32 health = 2;
+    string position = 3;
+    int32 remaining_spells = 4;
+}
+
+message RegisterMoveRequest{
+    string direction = 1;
+}
+
+message RegisterMoveResponse{
+    string status = 1;
+}
+
+message RevelioRequest{
+    string target_position =1;
+    string tile_type=2;
+}
+
+message RevelioResponse{
+    string target_positions = 1;
+}
+
+message BombardaRequest{
+    string target_positions = 1;
+}
+
+message BombardaResponse{
+    string result =1;
+}
+
+service Labyrinth {
+    rpc GetLabyrinthInfo (GetLabyrinthRequest) returns (GetLabyrinthInfoResponse);
+    rpc GetPlayerStatus (GetPlayerStatusRequest) returns (GetPlayerStatusResponse);
+    rpc RegisterMove (RegisterMoveRequest) returns (RegisterMoveResponse);
+    rpc Revelio (RevelioRequest) returns (stream RevelioResponse);
+    rpc Bombarda (stream BombardaRequest) returns (BombardaResponse);
+}
