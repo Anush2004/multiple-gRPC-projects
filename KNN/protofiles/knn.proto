@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package knn;
+
+service KNN {
+    rpc FindKNearestNeighbors(KNNRequest) returns (stream KNNResponse);
+}
+
+message KNNRequest {
+    repeated float dataPoint = 1;
+    int32 k = 2;
+}
+
+// all points in one stream
+message KNNResponse {
+    repeated float dataPoint = 1;
+}
+
