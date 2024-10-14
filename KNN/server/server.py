@@ -2,7 +2,7 @@ import grpc
 import argparse
 import math
 import pickle
-import os, sys
+import heapq
 from concurrent import futures
 
 
@@ -32,11 +32,14 @@ class KNNServer(knn_pb2_grpc.KNNServicer):
         return math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
 
     def find_knns(self, query_point: tuple[float], k: int):
-        # TODO: naive for now, will optimise later
-        distances = [(self.euclidean_distance(p, query_point), p) for p in self.points]
-        distances.sort()
+        max_heap = []
+        for point in self.points:
+            dist = self.euclidean_distance(point, query_point)
+            heapq.heappush(max_heap, (-dist, point))
+            if len(max_heap) > k:
+                heapq.heappop(max_heap)
         
-        knns = [pair[1] for pair in distances[: k]]
+        knns = [pair[1] for pair in max_heap[::-1]]
         return knns
 
     # implementing the gRPC service
