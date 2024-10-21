@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+service DocumentService {  
+
+    rpc InitializeDocument (Change) returns (Change);
+    rpc EditDocument (Change) returns (Ack);
+    rpc SyncDocument (SyncRequest) returns (stream Change);
+}
+
+service LoggerService {
+    // Server sends the document changes to the logger
+    rpc LogDocumentChange (stream Change) returns (Ack);
+}
+message SyncRequest {
+    string client_id = 1;
+    int64 last_change = 2;
+}
+
+message Change {   
+    string client_id =1;
+    string operation = 2; // insert, delete , initialize ,
+    int64 last_change = 3; 
+    string content = 4;    
+    int64 position = 5;
+    // int64 timestamp = 5;
+}
+
+message Ack {
+    bool success =1;
+    string message = 2;
+}
