@@ -1,54 +1,1601 @@
 
 ========================================
-Timestamp: 2024-10-21 16:08:59
-Client ID: 1df09a7e-d59f-48d4-80d5-eaea64d23e7a
+Timestamp: 2024-10-21 17:00:44
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
 Operation: insert
 Content: 'a'
-Position: 6
+Position: 0
 Last Change: 1
 ========================================
 
 ========================================
-Timestamp: 2024-10-21 16:08:59
-Client ID: 1df09a7e-d59f-48d4-80d5-eaea64d23e7a
+Timestamp: 2024-10-21 17:00:44
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
 Operation: insert
-Content: ' '
-Position: 7
+Content: 'a'
+Position: 1
 Last Change: 2
 ========================================
 
 ========================================
-Timestamp: 2024-10-21 16:08:59
-Client ID: 1df09a7e-d59f-48d4-80d5-eaea64d23e7a
+Timestamp: 2024-10-21 17:00:52
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
 Operation: insert
 Content: 'a'
-Position: 8
+Position: 33
 Last Change: 3
 ========================================
 
 ========================================
-Timestamp: 2024-10-21 16:09:25
-Client ID: 1df09a7e-d59f-48d4-80d5-eaea64d23e7a
-Operation: delete
-Content: ''
-Position: 8
+Timestamp: 2024-10-21 17:00:56
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: ' '
+Position: 34
 Last Change: 4
 ========================================
 
 ========================================
-Timestamp: 2024-10-21 16:09:25
-Client ID: 1df09a7e-d59f-48d4-80d5-eaea64d23e7a
-Operation: delete
-Content: ''
-Position: 7
+Timestamp: 2024-10-21 17:00:58
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: 'm'
+Position: 35
 Last Change: 5
 ========================================
 
 ========================================
-Timestamp: 2024-10-21 16:09:25
-Client ID: 1df09a7e-d59f-48d4-80d5-eaea64d23e7a
+Timestamp: 2024-10-21 17:00:58
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: 'a'
+Position: 36
+Last Change: 6
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:00:58
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: 'm'
+Position: 37
+Last Change: 7
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:00:58
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: 'a'
+Position: 39
+Last Change: 8
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:01:00
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
 Operation: delete
 Content: ''
-Position: 6
+Position: 38
+Last Change: 9
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:01:00
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: ' '
+Position: 39
+Last Change: 10
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:01:34
+Client ID: 3a5d82d5-11a4-4264-8d0b-f4155f0189d5
+Operation: insert
+Content: 'a'
+Position: 1
+Last Change: 11
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:01:36
+Client ID: 3a5d82d5-11a4-4264-8d0b-f4155f0189d5
+Operation: insert
+Content: 'a'
+Position: 2
+Last Change: 12
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:01:50
+Client ID: 3a5d82d5-11a4-4264-8d0b-f4155f0189d5
+Operation: insert
+Content: 'q'
+Position: 3
+Last Change: 13
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:01:54
+Client ID: 3a5d82d5-11a4-4264-8d0b-f4155f0189d5
+Operation: insert
+Content: 'q'
+Position: 4
+Last Change: 14
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:02:06
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: delete
+Content: ''
+Position: 43
+Last Change: 15
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:02:06
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: delete
+Content: ''
+Position: 42
+Last Change: 16
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:02:12
+Client ID: 3a5d82d5-11a4-4264-8d0b-f4155f0189d5
+Operation: insert
+Content: 'a'
+Position: 5
+Last Change: 17
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:02:30
+Client ID: 246f5487-8258-4ee6-b400-d71a4b06ad70
+Operation: insert
+Content: 'đ'
+Position: 43
+Last Change: 18
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:03:26
+Client ID: bb09a3ce-bb75-48ed-9748-3e6832210809
+Operation: insert
+Content: 'a'
+Position: 0
+Last Change: 19
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:49
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 's'
+Position: 28
+Last Change: 1
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:49
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 's'
+Position: 29
+Last Change: 2
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'h'
+Position: 30
+Last Change: 3
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'g'
+Position: 31
+Last Change: 4
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'h'
+Position: 32
+Last Change: 5
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'g'
+Position: 33
 Last Change: 6
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'h'
+Position: 34
+Last Change: 7
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 't'
+Position: 35
+Last Change: 8
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'v'
+Position: 36
+Last Change: 9
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'f'
+Position: 38
+Last Change: 10
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 't'
+Position: 38
+Last Change: 11
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'h'
+Position: 40
+Last Change: 12
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:51
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'g'
+Position: 40
+Last Change: 13
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: delete
+Content: ''
+Position: 40
+Last Change: 14
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: delete
+Content: ''
+Position: 39
+Last Change: 15
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: delete
+Content: ''
+Position: 38
+Last Change: 16
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: delete
+Content: ''
+Position: 37
+Last Change: 17
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: delete
+Content: ''
+Position: 36
+Last Change: 18
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 36
+Last Change: 19
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'h'
+Position: 38
+Last Change: 20
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 38
+Last Change: 21
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 39
+Last Change: 22
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 40
+Last Change: 23
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:53
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 41
+Last Change: 24
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 42
+Last Change: 25
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 43
+Last Change: 26
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: '.'
+Position: 44
+Last Change: 27
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: '.'
+Position: 45
+Last Change: 28
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: ','
+Position: 46
+Last Change: 29
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'f'
+Position: 47
+Last Change: 30
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'g'
+Position: 48
+Last Change: 31
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:55
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'f'
+Position: 49
+Last Change: 32
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:57
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'f'
+Position: 50
+Last Change: 33
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:57
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'Ć'
+Position: 51
+Last Change: 34
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:57
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'k'
+Position: 52
+Last Change: 35
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:57
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 53
+Last Change: 36
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:57
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'j'
+Position: 54
+Last Change: 37
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:59
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'h'
+Position: 55
+Last Change: 38
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:59
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 't'
+Position: 56
+Last Change: 39
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:59
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'r'
+Position: 57
+Last Change: 40
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:59
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'č'
+Position: 58
+Last Change: 41
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:12:59
+Client ID: 45edc2eb-3abe-4e4a-9f98-20e3d887395d
+Operation: insert
+Content: 'ď'
+Position: 59
+Last Change: 42
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:37
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'a'
+Position: 2
+Last Change: 43
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:39
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'a'
+Position: 3
+Last Change: 44
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:39
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'a'
+Position: 4
+Last Change: 45
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:41
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'a'
+Position: 5
+Last Change: 46
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:41
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'a'
+Position: 6
+Last Change: 47
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:43
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '
+'
+Position: 39
+Last Change: 48
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:45
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 40
+Last Change: 49
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:45
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 41
+Last Change: 50
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:45
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '
+'
+Position: 42
+Last Change: 51
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:45
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 43
+Last Change: 52
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:47
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 0
+Last Change: 53
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:47
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 1
+Last Change: 54
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:47
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 2
+Last Change: 55
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:49
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: '
+'
+Position: 42
+Last Change: 56
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:49
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 43
+Last Change: 57
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 44
+Last Change: 58
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 's'
+Position: 46
+Last Change: 59
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 46
+Last Change: 60
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 's'
+Position: 47
+Last Change: 61
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 48
+Last Change: 62
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 's'
+Position: 49
+Last Change: 63
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: ' '
+Position: 50
+Last Change: 64
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'd'
+Position: 52
+Last Change: 65
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 52
+Last Change: 66
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 53
+Last Change: 67
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 54
+Last Change: 68
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 55
+Last Change: 69
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:51
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 56
+Last Change: 70
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:53
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 57
+Last Change: 71
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:53
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 58
+Last Change: 72
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:53
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 59
+Last Change: 73
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:55
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 63
+Last Change: 74
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:55
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 64
+Last Change: 75
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:55
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 65
+Last Change: 76
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:55
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 66
+Last Change: 77
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:57
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 45
+Last Change: 78
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:57
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 46
+Last Change: 79
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:57
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: '
+'
+Position: 47
+Last Change: 80
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:13:59
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 48
+Last Change: 81
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:03
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: ' '
+Position: 51
+Last Change: 82
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:03
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 52
+Last Change: 83
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:03
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 53
+Last Change: 84
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:03
+Client ID: 442cc500-cfa1-43ef-991c-4dd2aa976191
+Operation: insert
+Content: 'f'
+Position: 54
+Last Change: 85
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:05
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 49
+Last Change: 86
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:05
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 50
+Last Change: 87
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:05
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 51
+Last Change: 88
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '
+'
+Position: 52
+Last Change: 89
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '
+'
+Position: 53
+Last Change: 90
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '
+'
+Position: 54
+Last Change: 91
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 56
+Last Change: 92
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 57
+Last Change: 93
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 57
+Last Change: 94
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 's'
+Position: 59
+Last Change: 95
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'x'
+Position: 60
+Last Change: 96
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '
+'
+Position: 60
+Last Change: 97
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 56
+Last Change: 98
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 57
+Last Change: 99
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 's'
+Position: 59
+Last Change: 100
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'l'
+Position: 60
+Last Change: 101
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'm'
+Position: 60
+Last Change: 102
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 61
+Last Change: 103
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'o'
+Position: 63
+Last Change: 104
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 's'
+Position: 63
+Last Change: 105
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'd'
+Position: 65
+Last Change: 106
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'j'
+Position: 66
+Last Change: 107
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'z'
+Position: 67
+Last Change: 108
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'a'
+Position: 68
+Last Change: 109
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'h'
+Position: 68
+Last Change: 110
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'u'
+Position: 70
+Last Change: 111
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'c'
+Position: 70
+Last Change: 112
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 72
+Last Change: 113
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: '8'
+Position: 72
+Last Change: 114
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 's'
+Position: 74
+Last Change: 115
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'u'
+Position: 75
+Last Change: 116
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'h'
+Position: 75
+Last Change: 117
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'n'
+Position: 77
+Last Change: 118
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'f'
+Position: 78
+Last Change: 119
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'o'
+Position: 78
+Last Change: 120
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'i'
+Position: 80
+Last Change: 121
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'u'
+Position: 81
+Last Change: 122
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'h'
+Position: 81
+Last Change: 123
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 's'
+Position: 83
+Last Change: 124
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:14:07
+Client ID: 516f6a06-30e3-42f9-afb9-59fdf05fc85a
+Operation: insert
+Content: 'j'
+Position: 84
+Last Change: 125
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:21
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 115
+Last Change: 126
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 114
+Last Change: 127
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 113
+Last Change: 128
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 112
+Last Change: 129
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 111
+Last Change: 130
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 110
+Last Change: 131
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 109
+Last Change: 132
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 108
+Last Change: 133
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 107
+Last Change: 134
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 106
+Last Change: 135
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 105
+Last Change: 136
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 104
+Last Change: 137
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 103
+Last Change: 138
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 102
+Last Change: 139
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 101
+Last Change: 140
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 100
+Last Change: 141
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 99
+Last Change: 142
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 98
+Last Change: 143
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 97
+Last Change: 144
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 96
+Last Change: 145
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 95
+Last Change: 146
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 94
+Last Change: 147
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 93
+Last Change: 148
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 92
+Last Change: 149
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 91
+Last Change: 150
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 90
+Last Change: 151
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 89
+Last Change: 152
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 88
+Last Change: 153
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:47:23
+Client ID: b74bcfac-b162-4605-98d1-d9f8bca02af7
+Operation: delete
+Content: ''
+Position: 87
+Last Change: 154
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:49:21
+Client ID: 8e6398da-daf4-464d-90ca-1307d921d42f
+Operation: insert
+Content: 'a'
+Position: 0
+Last Change: 1
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:49:21
+Client ID: 8e6398da-daf4-464d-90ca-1307d921d42f
+Operation: insert
+Content: 'a'
+Position: 1
+Last Change: 2
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:49:21
+Client ID: 8e6398da-daf4-464d-90ca-1307d921d42f
+Operation: insert
+Content: 'a'
+Position: 2
+Last Change: 3
+========================================
+
+========================================
+Timestamp: 2024-10-21 17:49:23
+Client ID: 8e6398da-daf4-464d-90ca-1307d921d42f
+Operation: insert
+Content: 'a'
+Position: 3
+Last Change: 4
 ========================================

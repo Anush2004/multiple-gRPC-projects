@@ -25,19 +25,31 @@ class DocumentClient:
         self.last_change = 0
         self.document = current_document
 
-    async def initialize_document(self):
-        request = document_pb2.Change(client_id=self.client_id, operation="initialize",last_change=self.last_change, content="", position=0)
-        response = await self.stub.InitializeDocument(request)
-        self.last_change = response.last_change
-        # print(f"Last change: {self.last_change}")
-        self.document = response.content
-        # print(f"Document initialized: {self.document}")
-        self.sync_task = asyncio.create_task(self.sync_document())
-
+    async def initialize_document(self,stdscr):
+        try:
+            request = document_pb2.Change(client_id=self.client_id, operation="initialize",last_change=self.last_change, content="", position=0)
+            response = await self.stub.InitializeDocument(request)
+            self.last_change = response.last_change
+            # print(f"Last change: {self.last_change}")
+            self.document = response.content
+            # print(f"Document initialized: {self.document}")
+            self.sync_task = asyncio.create_task(self.sync_document())
+        except grpc.aio.AioRpcError as e:
+            stdscr.addstr(6, 0, f"Error: Unable to connect to the server. {e.code().name}")
+            stdscr.refresh()
+            await asyncio.sleep(20)
+            return False
+        return True
         
-    async def edit_document(self, operation, content, position):
-        request = document_pb2.Change(client_id=self.client_id, operation=operation, last_change=self.last_change, content=content, position=position)
-        response = await self.stub.EditDocument(request)
+    async def edit_document(self, stdscr, operation, content, position):
+        try:
+            request = document_pb2.Change(client_id=self.client_id, operation=operation, last_change=self.last_change, content=content, position=position)
+            response = await self.stub.EditDocument(request)
+        except grpc.aio.AioRpcError as e:
+            stdscr.addstr(6, 0, f"Error: Could not apply edit. {e.code().name}")
+            stdscr.refresh()
+            await asyncio.sleep(20)
+            return
         # print(f"Edit response: {response}")
         
     async def sync_document(self):
@@ -49,6 +61,8 @@ class DocumentClient:
                 self.last_change = response.last_change
         except asyncio.CancelledError:
             print("Syncing task cancelled.")
+        except grpc.aio.AioRpcError as e:
+            print(f"Sync failed: {e.code().name}")
         finally:
             print("Exiting sync task.")
             
@@ -90,7 +104,8 @@ sync_task = None
 
 async def run_client(stdscr):
     client = DocumentClient()
-    await client.initialize_document()
+    if not await client.initialize_document(stdscr):
+        return
 
     # Setup curses
     stdscr.nodelay(True)  # Non-blocking input
@@ -139,16 +154,16 @@ async def run_client(stdscr):
             if cursor_x > 0:
                 cursor_x -= 1
                 index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
-                await client.edit_document("delete", "", index)
+                await client.edit_document(stdscr,"delete", "", index)
             else:
                 if cursor_y > 0:
                     cursor_y -= 1
                     cursor_x = len(lines[cursor_y])
                     index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
-                    await client.edit_document("delete", "", index)
+                    await client.edit_document(stdscr,"delete", "", index)
         elif key == 10:  # Handle Enter (new line)
             index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
-            await client.edit_document("insert", "\n", index)
+            await client.edit_document(stdscr,"insert", "\n", index)
             cursor_y += 1
             cursor_x = 0
         else:
@@ -156,7 +171,7 @@ async def run_client(stdscr):
             try:
                 char = chr(key)
                 index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
-                await client.edit_document("insert", char, index)
+                await client.edit_document(stdscr,"insert", char, index)
                 cursor_x += 1
             except ValueError:
                 pass  # Ignore invalid input
