@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package rider;
+
+service Rider {
+    rpc RequestRide(RideRequest) returns (RideResponse); // using asyncIO so this will work
+    rpc GetRideStatus(RideStatusRequest) returns (RideStatusResponse);
+}
+
+
+message RideRequest {
+    string rider_id = 1;
+    string pickup_location = 2;
+    string destination = 3;
+}
+
+message RideResponse {
+    string ride_id = 1;
+}
+
+message RideStatusRequest {
+    string rider_id = 1; // TODO: needed?
+    string ride_id = 2; // optional initially as ride may not be assigned yet
+}
+
+message RideStatusResponse {
+    string driver = 1; // if assigned
+    int32 status = 2;
+}
+

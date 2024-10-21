@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package driver;
+
+// Drivers announce to a server (chosen acc to load balancing) that they are available
+// for a ride, and wait for a response. If the server has an offer, the client waits
+// till the timeout for the user to accept/reject and responds accordingly
+// Once the ride is completed, it announces that to a server too.
+
+service Driver {
+    rpc AmAvailable(AmAvailableRequest) returns (AmAvailableResponse);
+    rpc AcceptRide(AcceptRideRequest) returns (AcceptRideResponse);
+    rpc RejectRide(RejectRideRequest) returns (RejectRideResponse);
+    rpc TimedOutRide(TimedOutRideRequest) returns (TimedOutRideResponse);
+    rpc CompleteRide(RideCompletionRequest) returns (RideCompletionResponse);
+}
+
+message AmAvailableRequest {
+    string driver_id = 1;
+    string message = 2; // TODO: needed?
+}
+
+message AmAvailableResponse {
+    string ride_id = 1;
+    string rider_id = 2;
+    string pickup_location = 3;
+    string destination = 4;
+    int32 status = 5;
+}
+
+message AcceptRideRequest {
+    string driver_id = 1;
+    string ride_id = 2;
+}
+
+message AcceptRideResponse {
+    string ride_id = 1;
+    int32 status = 2;
+}
+
+message RejectRideRequest {
+    string driver_id = 1;
+    string ride_id = 2;
+}
+
+message RejectRideResponse {
+    string ride_id = 1;
+    int32 status = 2;
+}
+
+message TimedOutRideRequest {
+    string driver_id = 1;
+    string ride_id = 2;
+}
+
+message TimedOutRideResponse {
+    string ride_id = 1;
+    int32 status = 2;
+}
+
+message RideCompletionRequest {
+    string driver_id = 1;
+    string ride_id = 2;
+}
+
+message RideCompletionResponse {
+    string ride_id = 1;
+    int32 status = 2; 
+}
