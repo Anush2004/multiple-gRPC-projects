@@ -24,6 +24,18 @@ class DocumentClient:
         self.stub = document_pb2_grpc.DocumentServiceStub(self.channel)
         self.last_change = 0
         self.document = current_document
+        
+    def get_flat_cursor_index(self, cursor_x, cursor_y):
+        return sum(len(line) + 1 for line in self.document.split('\n')[:cursor_y]) + cursor_x
+
+    def convert_flat_to_2d(self, flat_index):
+        lines = self.document.split('\n')
+        total_length = 0
+        for y, line in enumerate(lines):
+            total_length += len(line) + 1  # +1 for the newline character
+            if total_length > flat_index:
+                return (y, flat_index - (total_length - len(line) - 1))
+        return (len(lines) - 1, len(lines[-1]))  # Return last position if out of bounds
 
     async def initialize_document(self,stdscr):
         try:
@@ -67,10 +79,19 @@ class DocumentClient:
             print("Exiting sync task.")
             
     def apply_change(self, change):
+        global cursor_x, cursor_y
         if change.operation == "insert":
             self.document = self.document[:change.position] + change.content + self.document[change.position:]
+            cursor_offset = len(change.content)
+            flat_index = self.get_flat_cursor_index(cursor_x, cursor_y)
+            flat_index +=  cursor_offset
+            cursor_y, cursor_x = self.convert_flat_to_2d(flat_index)
         elif change.operation == "delete":
-            self.document = self.document[:change.position] + self.document[change.position+1:]
+            self.document = self.document[:change.position] + self.document[change.position + 1:]
+            cursor_offset = -1
+            flat_index = self.get_flat_cursor_index(cursor_x, cursor_y)
+            flat_index +=  cursor_offset
+            cursor_y, cursor_x = self.convert_flat_to_2d(flat_index)
 
 client = DocumentClient()
 # Background task to sync the document
@@ -103,6 +124,10 @@ sync_task = None
 #     return jsonify({"message": "Sync task started"})
 
 async def run_client(stdscr):
+    global cursor_x, cursor_y
+    cursor_x = 0
+    cursor_y = 0
+
     client = DocumentClient()
     if not await client.initialize_document(stdscr):
         return
@@ -111,11 +136,6 @@ async def run_client(stdscr):
     stdscr.nodelay(True)  # Non-blocking input
     # stdscr.keypad(True)   # Enable special keys
     curses.curs_set(1)     # Show cursor
-
-    # Cursor position
-    cursor_x = 0
-    cursor_y = 0
-
     # Main editing loop
     while True:
         stdscr.clear()
@@ -150,29 +170,31 @@ async def run_client(stdscr):
                 cursor_x -= 1
             elif key == curses.KEY_RIGHT and cursor_x < len(lines[cursor_y]):
                 cursor_x += 1
+                
         elif key == curses.KEY_BACKSPACE or key == 127:  # Handle backspace/delete
             if cursor_x > 0:
-                cursor_x -= 1
-                index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
+                # cursor_x -= 1
+                index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x -1
                 await client.edit_document(stdscr,"delete", "", index)
             else:
                 if cursor_y > 0:
-                    cursor_y -= 1
-                    cursor_x = len(lines[cursor_y])
-                    index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
+                    # cursor_y -= 1
+                    # cursor_x = len(lines[cursor_y])
+                    index = sum(len(line) + 1 for line in lines[:(cursor_y-1)]) + len(lines[cursor_y-1])
                     await client.edit_document(stdscr,"delete", "", index)
         elif key == 10:  # Handle Enter (new line)
             index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
             await client.edit_document(stdscr,"insert", "\n", index)
-            cursor_y += 1
-            cursor_x = 0
+            
+            # cursor_y += 1
+            # cursor_x = 0
         else:
             # Handle character input (insertion)
             try:
                 char = chr(key)
                 index = sum(len(line) + 1 for line in lines[:cursor_y]) + cursor_x
                 await client.edit_document(stdscr,"insert", char, index)
-                cursor_x += 1
+                # cursor_x += 1
             except ValueError:
                 pass  # Ignore invalid input
 
